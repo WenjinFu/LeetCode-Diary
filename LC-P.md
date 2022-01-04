@@ -30,9 +30,27 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 
 
-### CODE: 
+### CODE:
 
-### Solution 1
+### Solution 1 (Hard-coding/Ugly/Time Complex Wrong)
+
+```python
+class Solution(object):
+    def findMedianSortedArrays(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
+        """
+        result = nums1+nums2
+        result.sort()
+        if len(result) % 2.0 == 0:
+            return (result[ (len(result)/2) -1]  +  result[(len(result)/2)])/2.0
+        else:
+            return(result[len(result)/2])
+```
+
+### Solution 2 (Google master explanation/Super/Complex)
 
 ```python
 class Solution(object):
@@ -140,7 +158,7 @@ class Solution(object):
         
 ```
 
-###  Solution 2
+###  Solution 3 (Shorter version)
 
 ```python
 class Solution(object):
@@ -150,11 +168,12 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
-    def findMedianSortedArrays(self, nums1, nums2):
+        # sort array based on the length
         a, b = sorted((nums1, nums2), key=len)
         m, n = len(a), len(b)
         after = (m + n - 1) / 2
         lo, hi = 0, m
+        # binary search on smaller array
         while lo < hi:
             i = (lo + hi) / 2
             if after-i-1 < 0 or a[i] >= b[after-i-1]:
