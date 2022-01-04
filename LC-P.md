@@ -2,7 +2,7 @@
 
 ## LeetCode Problem Solution 
 
-## * Binary Search & Time Complexity - logn
+## *   Binary Search & Time Complexity - logn
 
 
 
