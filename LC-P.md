@@ -1,5 +1,7 @@
 
 
+<h1><div style="text-align:center" color="Tomato">Array</div></h1>
+
 ## LeetCode Problem Solution 
 
 ## *   Binary Search & Time Complexity - logn
