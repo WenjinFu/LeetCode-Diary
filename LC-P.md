@@ -1,6 +1,6 @@
 
 
-<h1><div style="text-align:center" color="Tomato">Array</div></h1>
+<h1><div style="text-align:center; color: DodgerBlue" >Array</div></h1>
 
 ## LeetCode Problem Solution 
 
