@@ -56,9 +56,7 @@ class Solution(object):
 
 ### Solution 1 (Optimized)
 
-
-
-<img src="https://github.com/WenjinFu/LeetCode-Diary/blob/main/Python/3Sum_Closest.jpeg" alt="3Sum_Closest" style="zoom:34%;"/>
+<img src="https://github.com/WenjinFu/LeetCode-Diary/blob/main/Python/3Sum_Closest.jpeg" alt="3Sum_Closest" style="width:34%, height34%;"/>
 
 
 
