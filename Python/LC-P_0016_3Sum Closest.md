@@ -58,6 +58,32 @@ class Solution(object):
 
 <img src="https://github.com/WenjinFu/LeetCode-Diary/blob/main/Python/3Sum_Closest.jpeg" alt="3Sum_Closest" style="width:34%, height34%;"/>
 
+```python
+class Solution(object):
+    def threeSumClosest(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        nums.sort()
+        res = sum(nums[:3])
+        for i in range(len(nums) - 2):
+            s = i + 1
+            e = len(nums)-1
+            while s < e:
+                sum3 = nums[i] + nums[s] + nums[e]
+                if abs(sum3-target) < abs(res-target):
+                    res = sum3
+                if sum3 < target:
+                    s += 1
+                else:
+                    e -=1
+        return res
+```
+
+
+
 
 
 
