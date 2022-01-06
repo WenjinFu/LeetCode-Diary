@@ -56,13 +56,7 @@ class Solution(object):
 
 ### Solution 1 (Optimized)
 
-![3Sum_Closest](https://github.com/WenjinFu/LeetCode-Diary/blob/main/Python/3Sum_Closest.jpeg)
-
-
-
-
-
-
+<img src="https://github.com/WenjinFu/LeetCode-Diary/blob/main/Python/LC-P_0016_3Sum%20Closest.md" alt="3Sum_Closest" style="zoom:34%;" />
 
 
 
