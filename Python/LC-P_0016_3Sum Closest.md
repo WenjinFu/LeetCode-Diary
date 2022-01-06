@@ -54,6 +54,10 @@ class Solution(object):
         return res
 ```
 
+### Solution 1 (Optimized)
+
+<img src="/Users/wenjinfu/Desktop/LEETCODE/LeetCode-Diary/Python/3Sum_Closest.jpeg" alt="3Sum_Closest" style="zoom:34%;" />
+
 
 
 
