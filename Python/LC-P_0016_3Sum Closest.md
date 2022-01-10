@@ -54,7 +54,7 @@ class Solution(object):
         return res
 ```
 
-### Solution 1 (Optimized)
+### Solution 1 (Optimized-Time complexity: n^2) 
 
 <img src="https://github.com/WenjinFu/LeetCode-Diary/blob/main/Python/3Sum_Closest.jpeg" alt="3Sum_Closest" style="width:34%, height34%;"/>
 
